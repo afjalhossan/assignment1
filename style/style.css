@@ -80,3 +80,53 @@ button.btn-share.btn-shiw {
 }
 
 
+
+/* NOtes secction */
+
+section.notes {
+    text-align: center;
+    padding: 50px 120px;
+}
+.notes-header h2{
+    font-size: 48px;
+}
+
+.notes-info {
+    display: flex;
+    gap: 30px;
+    margin: 50px  0;
+}
+.info-card {
+    padding: 20px;
+    box-shadow: 0 6px 10px 0 #47474786;
+}
+.info-card i {
+    color: #fff;
+   background: #000;
+   padding: 15px;
+    border-radius: 30px;
+    background-color: #F95555;
+}
+
+.knowledge-container{
+    display: flex;
+    padding: 120px;
+    gap: 60px;
+    align-items: center;
+}
+.knowledge-info h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #469165;
+}
+.knowledge-info h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+.knowledge-info p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.list-items li {
+    list-style: url(../assets/CheckCircle.png);
+}
