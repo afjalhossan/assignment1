@@ -15,6 +15,11 @@
 }
 .navigation ul li{
     list-style: none;
+    padding: 5px 10px;
+}
+.navigation ul li:hover{
+    background-color: #469165;
+    border-radius: 5px;
     
 }
 .navigation ul li a{
@@ -30,8 +35,8 @@
     cursor: pointer;
     font-size: 16px;
     padding: 10px 20px;
-     border-radius: 5px;
-    
+    border-radius: 5px;
+    text-transform: capitalize;
 }
     
 
@@ -95,7 +100,7 @@ button.btn-share.btn-shiw i {
 
 section.notes {
     text-align: center;
-    padding: 50px 120px;
+    padding: 50px 120px 0;
 }
 .notes-header h2{
     font-size: 48px;
