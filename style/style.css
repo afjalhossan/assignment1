@@ -42,13 +42,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* .hero:before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: #001931;
-    opacity: .2;
-} */
+.hero {
+  height: 674px;
+  background:
+    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url("../assets/hero-bgC.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .eano{
     border: none;
@@ -56,6 +58,10 @@
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 50px;
+    color: #469165;
+}
+.eano i{
+    margin-right: 10px;
 }
 .hero-content h1{
     font-size: 72px;
@@ -65,6 +71,7 @@
 }
 .hero-content {
     padding: 120px;
+    color: #ffffff;
 }
 
 h1.extra-c {
@@ -77,6 +84,9 @@ h1.extra-c {
 button.btn-share.btn-shiw {
     background-color: transparent;
     border: 1px solid #fff;
+}
+button.btn-share.btn-shiw i {
+    margin-right: 10px;
 }
 
 
@@ -129,4 +139,57 @@ section.notes {
 }
 .list-items li {
     list-style: url(../assets/CheckCircle.png);
+    padding: 5px 0;
+}
+
+
+.think-more-container {
+    margin: 0 120px;
+    text-align: center;
+    background: #F7F6F2;
+   padding: 80px 0;
+}
+
+.think-more-container h2 {
+    font-size: 40px;
+}
+.think-more-container p{
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.btn-think{
+    background-color: #627382;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.btn-think i {
+    margin-left: 10px;
+}
+footer.footer-container {
+    padding: 120px 120px 30px 120px;
+    background: rgba(0, 25, 49, 1);
+    color: #fff;
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.social-links ul li {
+    list-style: none;
+    display: inline;
+}
+.social-links ul li a{
+    color: #000;
+    background: #fff;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.footer-copyright hr{
+    border: none;
+    height: 2px;
+    background-color: #282834;
+    margin-bottom: 35px;
 }
